@@ -27,7 +27,7 @@ const Serendale = () => {
 
 const Services = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-[20px] xl:mt-[80px]">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-[20px] xl:mt-[80px] mb-12">
       <div>
         <Card className={`ml-auto mr-auto md:mr-0 ${styles.card}`} style={{ background: "rgba(27, 26, 31, 1)" }}>
           <CardBody className={styles.cardBodyCenter}>
