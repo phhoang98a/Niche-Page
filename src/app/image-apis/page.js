@@ -5,7 +5,7 @@ import Pricing from "@/components/Pricing";
 import Partners from "@/components/Partners";
 import React from "react";
 import Questions from "@/components/Questions";
-import Link from 'next/link'
+import Link from 'next/link';
 
 const Introduction = () => {
   return (
@@ -58,7 +58,7 @@ const Features = () => {
     { model: "Text To Image", image: "/Text To Image.svg", text: "Transform your ideas into stunning visuals with our powerful video creation platform" },
     { model: "Face To Many", image: "/Face to many.svg", text: "A lab exploring new ways of thinking and enhancing human creativity" },
     { model: "Control To Image", image: "/Control to Image.svg", text: "Stop scrolling for hours to find the perfect sticker and instead make your own" },
-    { model: "Image To Image", image: "/Image2Image.svg", text: "A lab exploring new ways of thinking and enhancing human creativity" },
+    { model: "Image To Image", image: "/Image2Image.svg", text: "Transform your ideas into stunning visuals with our powerful video creation platform" },
   ];
   return (
     <div className="my-4 lg:my-12 flex justify-center">

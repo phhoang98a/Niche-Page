@@ -116,7 +116,7 @@ const Contact = () => {
       <div className="flex justify-center mt-[40px] ">
         <div className={`${styles.contactContainer} grid grid-cols-1 lg:grid-cols-3 gap-2`}>
           <div className={`${styles.contact} flex items-center`}>
-            <div className='mx-6'>
+            <div className='mx-6 lg:mx-3'>
               <Image src="/discord.svg" width={0} height={0} sizes="100vw" className={styles.icon}></Image>
             </div>
             <div className={styles.textCt}>
@@ -125,7 +125,7 @@ const Contact = () => {
             </div>
           </div>
           <div className={`${styles.contact} flex items-center`}>
-            <div className='mx-6'>
+            <div className='mx-6 lg:mx-3'>
               <Image src="/email.svg" width={0} height={0} sizes="100vw" className={styles.icon}></Image>
             </div>
             <div className={styles.textCt}>
@@ -134,7 +134,7 @@ const Contact = () => {
             </div>
           </div>
           <div className={`${styles.contact} flex items-center`}>
-            <div className='mx-6'>
+            <div className='mx-6 lg:mx-3'>
               <Image src="/github.svg" width={0} height={0} sizes="100vw" className={styles.icon}></Image>
             </div>
             <div className={styles.textCt}>
