@@ -29,7 +29,7 @@ const questions = [
         <div className="p-3">
           <Accordion>
             {questions.map((ques, index) => (
-              <AccordionItem key={index} aria-label={`Accordion ${index + 1}`} title={ques.question} className="text-red">
+              <AccordionItem key={index} aria-label={`Accordion ${index + 1}`} title={ques.question}>
                 <div className={styles.answers}>
                   {ques.answer}
                 </div>
