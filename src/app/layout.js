@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={poppins.className}>
-        <NextUIProvider style={{background: "linear-gradient(157.87deg, #151836 0%, #0E0F14 100%)"}}>
+        <NextUIProvider style={{background: "linear-gradient(157.87deg, #151836 0%, #0E0F14 100%)"}} className="text-primary">
           <Nav/>
           {children}
           <Footer/>
