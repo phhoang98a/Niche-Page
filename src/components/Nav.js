@@ -11,7 +11,7 @@ export default function Nav() {
     { name: "Home", link: "/" },
     { name: "Image APIs", link: "/image-apis" },
     { name: "Text APIs", link: "/text-apis" },
-    { name: "NicheTensor", link: "#" },
+    { name: "NicheTensor", link: "/about-us" },
   ];
 
   return (

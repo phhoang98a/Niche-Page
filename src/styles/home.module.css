@@ -211,10 +211,6 @@
   width: 40px;
 }
 
-.textCt {
-  display: flex;
-  flex-direction: column;
-}
 
 .textCt_1 {
   font-size: 24px;
@@ -223,13 +219,6 @@
   text-align: left;
 }
 
-.textCt_2 {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 33px;
-  text-align: left;
-  text-decoration: underline;
-}
 
 .contactContainer {
   width: 97%;
@@ -258,19 +247,13 @@
   }
 
   .icon {
-    width: 55px;
-    margin-left: 26px;
-    margin-right: 20px;
+    width: 50px;
   }
 
   .textCt_1 {
     font-size: 30px;
   }
   
-  .textCt_2 {
-    font-size: 22px;
-  }
-
   .cardText2,
   .auText_3 {
     font-size: 14px;
@@ -313,18 +296,12 @@
 
   .icon {
     width: 30px;
-    margin-left: 0px;
-    margin-right: 0px;
   }
 
   .textCt_1 {
     font-size: 25px;
   }
   
-  .textCt_2 {
-    font-size: 16px;
-  }
-
 
 }
 
@@ -380,10 +357,6 @@
     font-size: 28px;
   }
   
-  .textCt_2 {
-    font-size: 18px;
-  }
-
 }
 
 @media (min-width: 1280px) {

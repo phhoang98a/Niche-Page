@@ -21,5 +21,5 @@ module.exports = {
     },
   },
   darkMode: "false",
-  plugins: [nextui()],
-};
+  plugins: [require("tailwindcss-animate"),nextui(), require('daisyui')],
+}

@@ -3,6 +3,7 @@ import styles from "../styles/home.module.css"
 import { Card, CardBody, Button } from "@nextui-org/react";
 import Link from 'next/link'
 import Icon from '@/components/Icon';
+import Contact from '@/components/Contact';
 
 const Serendale = () => {
   return (
@@ -107,46 +108,7 @@ const AboutUs = () => {
   )
 }
 
-const Contact = () => {
-  return (
-    <div>
-      <div className={styles.textContact}>
-        Get in touch <span className={styles.textColor}>with us</span>
-      </div>
-      <div className="flex justify-center mt-[40px] ">
-        <div className={`${styles.contactContainer} grid grid-cols-1 lg:grid-cols-3 gap-2`}>
-          <div className={`${styles.contact} flex items-center`}>
-            <div className='mx-6 lg:mx-3'>
-              <Image src="/discord.svg" width={0} height={0} sizes="100vw" className={styles.icon}></Image>
-            </div>
-            <div className={styles.textCt}>
-              <div className={styles.textCt_1}>Discord</div>
-              <div className={styles.textCt_2}><Link href='https://shorturl.at/fiFY3'>https://shorturl.at/fiFY3</Link></div>
-            </div>
-          </div>
-          <div className={`${styles.contact} flex items-center`}>
-            <div className='mx-6 lg:mx-3'>
-              <Image src="/email.svg" width={0} height={0} sizes="100vw" className={styles.icon}></Image>
-            </div>
-            <div className={styles.textCt}>
-              <div className={styles.textCt_1}>Email</div>
-              <div className={styles.textCt_2}>Niche@gmail.com</div>
-            </div>
-          </div>
-          <div className={`${styles.contact} flex items-center`}>
-            <div className='mx-6 lg:mx-3'>
-              <Image src="/github.svg" width={0} height={0} sizes="100vw" className={styles.icon}></Image>
-            </div>
-            <div className={styles.textCt}>
-              <div className={styles.textCt_1}>GitHub</div>
-              <div className={styles.textCt_2}><Link href='https://shorturl.at/uyAPZ'>https://shorturl.at/uyAPZ</Link></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  )
-}
+
 
 export default function Home() {
   return (
@@ -156,7 +118,7 @@ export default function Home() {
       <div style={{ background: "linear-gradient(150.98deg, #151836 14.93%, rgba(14, 15, 20, 0) 78.67%)" }}>
         <div className='pb-[100px]'>
           <AboutUs />
-          <Contact />
+          <Contact/>
         </div>
       </div>
     </div>

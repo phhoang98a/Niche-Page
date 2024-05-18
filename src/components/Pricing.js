@@ -10,7 +10,7 @@ export default function Pricing() {
         <div className="flex flex-col justify-center">
           <h2 className={styles.text_1}>Pricing plan</h2>
           <h1 className={`${styles.textBold} mt-2`}>
-            Let’s <span className={styles.textColor}>get stared</span>
+            Let’s <span className={styles.textColor}>get started</span>
           </h1>
           <p className={`${styles.textSlim} mt-4`}>
             Nichelmage is a decentralized network that powers the image generation API.
