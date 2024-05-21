@@ -12,7 +12,7 @@ export const Aboutus = () => {
             About Us
           </div>
           <div className={styles.auText_2}>
-            Empowering <span className={styles.textColor}>Niche Tensor</span>  By Keeping Them Well
+            Making AI Tailored to Each Individual
           </div>
           <div className={styles.auText_3}>
             We are a startup working to make AI universally accessible and tailored to each individual’s needs.
