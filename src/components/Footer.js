@@ -10,7 +10,7 @@ export default function Footer() {
         fontWeight: "400",
         lineHeight: "24px"
       }}>
-        © 2024 by GoAPI. All rights reserved.
+        © 2024 by NicheTensor. All rights reserved.
       </div>
       <Logo/>
     </div>
