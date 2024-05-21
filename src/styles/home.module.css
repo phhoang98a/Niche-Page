@@ -7,7 +7,7 @@
   /* Center children horizontally */
   text-align: center;
   /* Centers text inside the children */
-  height: 495px;
+  height: 500px;
 }
 
 .imageSerendale {
@@ -16,13 +16,11 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 0;
 }
 
 .area_1 {
-  margin-top: 25px;
-  width: 290px;
-  /* height: 195px; */
-  font-size: 33px;
+  font-size: 29px;
   font-weight: 500;
   /* line-height: 74.4px; */
   letter-spacing: 0.02em;
@@ -31,8 +29,8 @@
 
 .area_2 {
   margin-top: 10px;
-  width: 250px;
-  font-size: 12px;
+  /* width: 250px; */
+  font-size: 14px;
   font-weight: 400;
   /* line-height: 19.2px; */
   letter-spacing: 0.6000000238418579px;
@@ -56,7 +54,7 @@
   border: none;
   border-radius: 99px;
   height: 50px;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 400;
   line-height: 24px;
   display: flex;
@@ -65,7 +63,8 @@
   justify-content: center;
   /* This centers the contents horizontally */
   padding: 10px 16px 10px 16px;
-  gap: 8px
+  gap: 8px;
+  z-index: 2;
 }
 
 .button1::before {
@@ -83,17 +82,15 @@
     linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
+  z-index: -1;
 }
 
-.card {
-  width: 350px;
-}
+
 
 .cardBodyCenter {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
   color: rgba(255, 255, 255, 1);
 }
 
@@ -103,8 +100,7 @@
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.1);
   text-align: center;
-  padding: 12px 24px;
-  width: 180px;
+  padding: 12px 32px;
   display: inline-block;
   gap: 10px;
   /* font-size: 18px; */
@@ -121,16 +117,16 @@
   font-weight: 400;
   line-height: 50.4px;
   text-align: center;
+  height: 80px;
 }
 
 .cardText2 {
   margin-top: 25px;
   /* font-size: 16px; */
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   text-align: center;
-  width: 345px;
   margin-bottom: 20px;
 }
 
@@ -227,17 +223,17 @@
 
 @media (min-width: 768px) {
   .serendale {
-    height: 565px;
+    height: 600px;
   }
 
   .area_1 {
-    width: 550px;
-    font-size: 47px;
+    /* width: 550px; */
+    font-size: 37px;
   }
 
   .area_2 {
-    width: 470px;
-    font-size: 17px;
+    /* width: 470px; */
+    font-size: 20px;
   }
 
   .cardText1,
@@ -256,7 +252,7 @@
   
   .cardText2,
   .auText_3 {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .buttonAu {
@@ -282,9 +278,6 @@
 }
 
 @media (min-width: 820px) {
-  .card {
-    width: 395px;
-  }
 
   .image {
     height: 350px;
@@ -308,33 +301,31 @@
 
 @media (min-width: 1024px) {
   .serendale {
-    height: 700px;
+    height: 750px;
   }
 
   .area_1 {
-    margin-top: 70px;
-    width: 893px;
-    font-size: 62px;
+
+    font-size: 45px;
   }
 
   .area_2 {
-    width: 593px;
-    font-size: 18px;
+
+    font-size: 23px;
   }
 
-  .card {
-    width: 495px;
-  }
 
-  .cardText1,
   .auText_2,
   .textContact {
     font-size: 42px;
   }
 
+  .cardText1 {
+    font-size: 38px;
+  }
+
   .cardText2 {
-    font-size: 18px;
-    width: 450px;
+    font-size: 20px;
   }
 
   .textButton,
@@ -361,16 +352,19 @@
 
 @media (min-width: 1280px) {
   .serendale {
-    height: 880px;
+    height: 800px;
   }
 
-  .card {
-    width: 630px;
+  .area_1 {
+
+    font-size: 46px;
   }
 
-  .cardText2 {
-    width: 550px;
+  .area_2 {
+
+    font-size: 25px;
   }
+
 
   .image {
     height: 400px;
@@ -387,16 +381,10 @@
 
 @media (min-width: 1920px) {
   .serendale {
-    height: 1120px;
+    height: 880px;
   }
 
-  .card {
-    width: 700px;
-  }
 
-  .cardText2 {
-    width: 620px;
-  }
 
   .textAu {
     width: 700px;

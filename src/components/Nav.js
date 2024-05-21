@@ -9,8 +9,8 @@ export default function Nav() {
 
   const menuItems = [
     { name: "Home", link: "/" },
-    { name: "Image APIs", link: "/image-apis" },
-    { name: "Text APIs", link: "/text-apis" },
+    { name: "Image API", link: "/image-api" },
+    { name: "Text API", link: "/text-api" },
     { name: "NicheTensor", link: "/about-us" },
   ];
 
