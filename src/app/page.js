@@ -6,7 +6,8 @@ import Link from 'next/link'
 import Icon from '@/components/Icon';
 import Contact from '@/components/Contact';
 import { useRef } from 'react';
-import Aboutus from '@/components/AboutUs';
+import Aboutus from '@/components/Aboutus';
+
 
 const Serendale = ({ servicesRef }) => {
   const handleLearnMoreClick = () => {
