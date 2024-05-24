@@ -15,12 +15,12 @@
 
 .describe {
   margin-top: 10px;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 400;
   letter-spacing: 0.6000000238418579px;
 }
 
-.number{
+.number {
   background-image: linear-gradient(96.63deg, #D79AF5 3.04%, #9393F5 99.24%);
   -webkit-background-clip: text;
   background-clip: text;
@@ -31,7 +31,7 @@
   line-height: 44.8px;
 }
 
-.textNum{
+.textNum {
   font-size: 16px;
   font-weight: 400;
   line-height: 38.4px;
@@ -57,6 +57,11 @@
   background: transparent;
 }
 
+.imagePricing {
+  height: 500px !important;
+  width: 100% !important;
+}
+
 .bigImage {
   width: 100%;
 }
@@ -70,7 +75,7 @@
   margin-bottom: 15px;
 }
 
-.container{
+.container {
   background: rgba(27, 26, 31, 1);
   gap: 0px;
   border-radius: 20px;
@@ -80,7 +85,7 @@
   justify-content: center;
 }
 
-.featureModel{
+.featureModel {
   font-size: 16px;
   font-weight: 700;
   line-height: 21.6px;
@@ -90,35 +95,35 @@
 }
 
 
-.featureText{
+.featureText {
   font-size: 12px;
   font-weight: 400;
   line-height: 19.2px;
   text-align: left;
 }
 
-.text_1{
+.text_1 {
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
 }
 
-.textBold{
+.textBold {
   font-size: 31px;
   font-weight: 700;
   line-height: 58.8px;
 }
 
-.textSlim{
-  font-size: 14px;
+.textSlim {
+  font-size: 16px;
   font-weight: 400;
-  line-height: 27px;  
+  line-height: 34px;
 }
 
-.pricingButton{
+.pricingButton {
   padding: 12px 42px 12px 42px;
   gap: 10px;
-  border-radius: 16px ;
+  border-radius: 16px;
   border: 1px;
   background: rgba(255, 255, 255, 1);
   margin-top: 20px;
@@ -134,23 +139,35 @@
 
 @media (min-width: 768px) {
 
-  .title{
-    font-size: 47px;
+  .title {
+    font-size: 35px;
   }
 
-  .describe, .textSlim{
-    font-size: 17px;
+  .describe {
+    font-size: 18px;
   }
-  
-  .button1, .button2{
+
+  .textSlim {
+    font-size: 19px;
+  }
+
+
+  .imagePricing {
+    height: 350px !important;
+  }
+
+  .button1,
+  .button2 {
     font-size: 16px;
   }
 
-  .title, .describe{
+  .title,
+  .describe {
     text-align: left;
   }
 
-  .featureModel, .text_1{
+  .featureModel,
+  .text_1 {
     font-size: 18px;
   }
 
@@ -158,27 +175,26 @@
     font-size: 15px;
   }
 
-  .textTitle{
+  .textTitle {
     font-size: 34px;
   }
 
   .textBold {
-    font-size: 40px;
+    font-size: 38px;
   }
-  
-  .answers{
+
+  .answers {
     font-size: 15px;
   }
 
-  
+
 }
 
-@media (min-width: 820px) {
-}
+@media (min-width: 820px) {}
 
 
 @media (min-width: 1024px) {
-  .title{
+  .title {
     font-size: 52px;
   }
 
@@ -186,23 +202,28 @@
     font-size: 21px;
   }
 
-  .textSlim{
-    font-size: 21px;
+  .textSlim {
+    font-size: 23px;
   }
-  
-  .number{
+  .textBold {
+    font-size: 42px;
+  }
+
+  .number {
     font-size: 35px;
   }
 
-  .textNum{
+  .textNum {
     font-size: 22px
   }
-  
-  .button1, .button2{
+
+  .button1,
+  .button2 {
     font-size: 20px;
   }
 
-  .featureModel, .text_1{
+  .featureModel,
+  .text_1 {
     font-size: 23px;
   }
 
@@ -210,30 +231,31 @@
     font-size: 16px;
   }
 
-  .textTitle{
+  .textTitle {
     font-size: 42px;
   }
 
-  .answers{
+  .answers {
     font-size: 18px;
   }
 
 }
 
 @media (min-width: 1280px) {
-  .title{
+  .title {
     font-size: 62px;
   }
-  
-  .number{
+
+  .number {
     font-size: 36px;
   }
 
-  .textNum{
+  .textNum {
     font-size: 25px
   }
-  
-  .button1, .button2{
+
+  .button1,
+  .button2 {
     font-size: 20px;
   }
 
@@ -243,5 +265,4 @@
 
 }
 
-@media (min-width: 1920px) {
-}
+@media (min-width: 1920px) {}

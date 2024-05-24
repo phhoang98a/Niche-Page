@@ -37,16 +37,16 @@ const AboutUs = () => {
             About Us
           </div>
           <div className={styles.auText_2}>
-            Empowering <span className={styles.textColor}>Niche Tensor</span>  By Keeping Them Well
+            Making AI Tailored to Each Individual
           </div>
           <div className={styles.auText_3}>
-            NicheImage is a decentralized network that powers the image generation API.
+          We are a startup working to make AI universally accessible and tailored to each individual’s needs.
             <br />
             <br />
-            By having the network decentralized using the Bittensor protocol, anyone can join as an image producer.
+            We do this by providing AI services such as image and text generation tailored to the client’s needs.
             <br />
             <br />
-            We then validate that all image producers use the models we specify, and in return for generating images for us, the image producers get paid.
+            To ensure the fastest and most affordable end product, we utilize Bittensor - a protocol that allows us to use decentralized networks of computing, that ensure that we always have the optimal and most price efficient compute available.
           </div>
         </div>
         <div className="flex rounded-xl">
@@ -90,10 +90,7 @@ export default function AboutNiche() {
 
   return (
     <div>
-      <AboutNicheTensor />
       <AboutUs />
-      <Timeline />
-      <Teams />
       <div className='pb-[100px]'>
         <Contact />
       </div>

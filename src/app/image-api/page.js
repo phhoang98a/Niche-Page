@@ -10,41 +10,20 @@ import Link from 'next/link';
 const Introduction = () => {
   return (
     <div style={{ background: "rgba(27, 26, 31, 1)" }} className="flex justify-center items-center">
-      <div className="w-full max-w-7xl p-6 md:p-4 grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-1">
+      <div className="w-full max-w-7xl p-6 md:p-6 grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-0 lg:mb-20 lg:mt-20">
         <div className="flex flex-col justify-center">
           <div className={styles.title}>
-            All new <span className={styles.textColor}>Image APIs</span>
+            {/* All new <span className={styles.textColor}>Image APIs</span> */}
+            Stunning Images for Every Use Case
           </div>
           <div className={styles.describe}>
-            GoAPI provides GPT API for your development needs, you can now add GPTs, along with all its capabilities and features, into your own app, projects, or websites. Sign up now and happy integrating!
-          </div>
-          <div>
-            <div className="rounded-3xl p-5 flex justify-around items-center lg:items-start mt-10 xl:mt-15" style={{ background: "rgba(41, 40, 40, 1)" }}>
-              <div>
-                <div className={styles.number}>40k+</div>
-                <div className={styles.textNum}>Total Users</div>
-              </div>
-              <div>
-                <div className={styles.number}>50k+</div>
-                <div className={styles.textNum}>Auctions</div>
-              </div>
-              <div>
-                <div className={styles.number}>80k+</div>
-                <div className={styles.textNum}>Artists</div>
-              </div>
-            </div>
-          </div>
-          <div className="mt-10 xl:mt-15 flex justify-center md:justify-start">
-            <Button className={`px-7 ${styles.button1}`}>
-              <Link href='https://studio.nichetensor.com/'>Try now!</Link>
-            </Button>
-            <Button className={`ml-3 px-7 ${styles.button2}`}>
-              <Link href="https://docs.nichetensor.com/">Documentation</Link>
-            </Button>
+            By supporting 7 different image models with different styles and generation speeds, you can find the optimal model for your use case
           </div>
         </div>
-        <div className="hidden md:flex rounded-xl">
-          <Image src="/Image.svg" width={0} height={0} sizes="100vw" className={styles.bigImage} />
+        <div className="flex justify-center items-center rounded-xl">
+          <div className="md:w-[70%]">
+            <Image src="/Text.svg" width={0} height={0} sizes="100vw" className="w-full" />
+          </div>
         </div>
       </div>
     </div>
@@ -53,12 +32,12 @@ const Introduction = () => {
 
 const Features = () => {
   const features = [
-    { model: "GoJourney", image: "/Go Journey.svg", text: "A lab exploring new ways of thinking and enhancing human creativity" },
-    { model: "Sticker Maker", image: "/Sticker.svg", text: "Stop scrolling for hours to find the perfect sticker and instead make your own" },
-    { model: "Text To Image", image: "/Text To Image.svg", text: "Transform your ideas into stunning visuals with our powerful video creation platform" },
-    { model: "Face To Many", image: "/Face to many.svg", text: "A lab exploring new ways of thinking and enhancing human creativity" },
-    { model: "Control To Image", image: "/Control to Image.svg", text: "Stop scrolling for hours to find the perfect sticker and instead make your own" },
-    { model: "Image To Image", image: "/Image2Image.svg", text: "Transform your ideas into stunning visuals with our powerful video creation platform" },
+    { model: "GoJourney", image: "/Go Journey.svg", text: "Embark on a journey of innovation and creativity" },
+    { model: "Sticker Maker", image: "/Sticker.svg", text: "Conjure up perfect stickers with AI-generated graphics and seamless transparent backgrounds" },
+    { model: "Text To Image", image: "/Text To Image.svg", text: "Convert your textual ideas into breathtaking visuals" },
+    { model: "Face To Many", image: "/Face to many.svg", text: "Transform any face into 3D, emoji, pixel art, video game characters, claymation, or toys" },
+    { model: "Control To Image", image: "/Control to Image.svg", text: "Harness the power of ControlNet to modify images with precision" },
+    { model: "Image To Image", image: "/Image2Image.svg", text: "Reimagine and recreate visuals effortlessly" },
   ];
   return (
     <div className="my-4 lg:my-12 flex justify-center">
@@ -94,12 +73,12 @@ export default function ImageApi() {
       <Introduction />
       <Features />
       <Pricing />
-      <div style={{ background: "linear-gradient(150.98deg, #151836 14.93%, rgba(14, 15, 20, 0) 78.67%)" }}>
+      {/* <div style={{ background: "linear-gradient(150.98deg, #151836 14.93%, rgba(14, 15, 20, 0) 78.67%)" }}>
         <Partners />
         <div style={{ background: "rgba(27, 27, 27, 1)", marginBottom: "50px" }}>
           <Questions />
         </div>
-      </div>
+      </div> */}
     </div >
   )
 

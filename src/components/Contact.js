@@ -32,7 +32,7 @@ export const Contact = () => {
             </div>
             <div >
               <div className={styles.textCt_1}>
-                <a href="mailto:Niche@gmail.com">Email</a>
+                <a href="mailto:contact@nichetensor.com">Email</a>
               </div>
             </div>
           </div>

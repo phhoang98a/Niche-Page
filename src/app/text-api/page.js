@@ -56,15 +56,15 @@ const Introduction = () => {
 
 export default function TextApi() {
   return (
-    <div>
-      <Introduction />
+    <div style={{ height: "100vh", overflowY: "hidden" }}>
+      {/* <Introduction /> */}
       <Pricing />
-      <div style={{ background: "linear-gradient(150.98deg, #151836 14.93%, rgba(14, 15, 20, 0) 78.67%)" }}>
+      {/* <div style={{ background: "linear-gradient(150.98deg, #151836 14.93%, rgba(14, 15, 20, 0) 78.67%)" }}>
         <Partners />
         <div style={{ background: "rgba(27, 27, 27, 1)", marginBottom: "50px" }}>
           <Questions />
         </div>
-      </div>
+      </div> */}
     </div >
   )
 
