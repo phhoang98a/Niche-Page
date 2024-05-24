@@ -14,7 +14,7 @@ export async function POST(request) {
     const params = {
       Source: '"NicheTensor" <hoangph7298@gmail.com>',
       Destination: {
-        ToAddresses: ['henryphan0702@gmail.com'], 
+        ToAddresses: ['contact@nichetensor.com'], 
       },
       Message: {
         Subject: {

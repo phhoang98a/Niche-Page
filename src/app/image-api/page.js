@@ -35,9 +35,9 @@ const Features = () => {
     { model: "GoJourney", image: "/Go Journey.svg", text: "Embark on a journey of innovation and creativity" },
     { model: "Sticker Maker", image: "/Sticker.svg", text: "Conjure up perfect stickers with AI-generated graphics and seamless transparent backgrounds" },
     { model: "Text To Image", image: "/Text To Image.svg", text: "Convert your textual ideas into breathtaking visuals" },
-    { model: "Face To Many", image: "/Face to many.svg", text: "Transform any face into 3D, emoji, pixel art, video game characters, claymation, or toys" },
-    { model: "Control To Image", image: "/Control to Image.svg", text: "Harness the power of ControlNet to modify images with precision" },
-    { model: "Image To Image", image: "/Image2Image.svg", text: "Reimagine and recreate visuals effortlessly" },
+    { model: "Face To Many", image: "/Face to many.png", text: "Transform any face into 3D, emoji, pixel art, video game characters, claymation, or toys" },
+    { model: "Control To Image", image: "/Control to image.png", text: "Harness the power of ControlNet to modify images with precision" },
+    { model: "Image To Image", image: "/Image to image.png", text: "Reimagine and recreate visuals effortlessly" },
   ];
   return (
     <div className="my-4 lg:my-12 flex justify-center">
