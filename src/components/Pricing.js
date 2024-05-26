@@ -126,7 +126,7 @@ export default function Pricing() {
                     <span>Your credits request has been sent!</span>
                   </div>
                 )}
-                <div className="text-center text-sm mt-2 px-3">
+                <div className="text-center text-sm text-white mt-2 px-3">
                   NicheTensor respects your privacy. For more information, see our Privacy Policy.
                 </div>
               </ModalFooter>
