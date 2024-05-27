@@ -1,14 +1,6 @@
 import Image from 'next/image'
 import styles from "../styles/home.module.css"
 import Link from 'next/link'
-const imgs = [
-  { image: "/Team-1.svg", describle: "Mr Niche" },
-  { image: "/Team-1.svg", describle: "Mr Niche" },
-  { image: "/Team-1.svg", describle: "Mr Niche" },
-  { image: "/Team-1.svg", describle: "Mr Niche" },
-  { image: "/Team-1.svg", describle: "Mr Niche" },
-];
-
 
 export const Contact = () => {
   return (

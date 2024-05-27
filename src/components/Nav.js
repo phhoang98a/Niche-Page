@@ -1,11 +1,14 @@
 "use client"
 import React, { useState } from "react";
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link, Button } from "@nextui-org/react";
+import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link, Button, useDisclosure } from "@nextui-org/react";
 import styles from "../styles/navbar.module.css"
 import Logo from "./Logo";
+import RequestModal from "./RequestModal";
+import Icon from "../components/Icon";
 
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { isOpen, onOpen, onOpenChange } = useDisclosure();
 
   const menuItems = [
     { name: "Home", link: "/" },
@@ -47,8 +50,11 @@ export default function Nav() {
             </Button>
           </NavbarItem>
           <NavbarItem className="hidden lg:flex">
-            <Button className={`w-[140px] ${styles.button2}`}>
-              Get started
+            <Button className={`w-[180px] ${styles.button2}`} onClick={onOpen}>
+              <Icon />
+              <span className={`${styles.textColor}`}>
+                Request credits
+              </span>
             </Button>
           </NavbarItem>
         </NavbarContent>
@@ -72,12 +78,15 @@ export default function Nav() {
 
           </NavbarItem>
           <NavbarItem>
-            <Button className={`w-full flex items-center justify-center ${styles.button2}`}>
-              Get started
+            <Button className={`w-full flex items-center justify-center ${styles.button2}`} onClick={onOpen}>
+              <span className={`${styles.textColor}`}>
+                Request credits
+              </span>
             </Button>
           </NavbarItem>
         </NavbarMenu>
       </Navbar>
+      <RequestModal isOpen={isOpen} onOpenChange={onOpenChange} />
     </div>
 
   );

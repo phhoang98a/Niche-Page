@@ -104,7 +104,6 @@ export default function Home() {
       <div style={{ background: "linear-gradient(150.98deg, #151836 14.93%, rgba(14, 15, 20, 0) 78.67%)" }}>
         <div className='pb-[100px]'>
           <Aboutus/>
-          <Contact />
         </div>
       </div>
     </div>

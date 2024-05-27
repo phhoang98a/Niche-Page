@@ -12,7 +12,7 @@ const poppins = Poppins({
 
 export const metadata = {
   title: "NicheTensor",
-  description: "NicheTensor landingpage",
+  description: "The NicheTensor API supports cutting edge models such as JuggernautX, DreamShaperXL, Llama 3 70B and many more",
   icons: [{ rel: 'icon', url: Favicon.src }],
 };
 

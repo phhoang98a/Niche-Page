@@ -6,6 +6,7 @@ import Partners from "@/components/Partners";
 import React from "react";
 import Questions from "@/components/Questions";
 import Link from 'next/link';
+import { Resources } from "@/components/Resources";
 
 const Introduction = () => {
   return (
@@ -73,6 +74,7 @@ export default function ImageApi() {
       <Introduction />
       <Features />
       <Pricing />
+      <Resources/>
       {/* <div style={{ background: "linear-gradient(150.98deg, #151836 14.93%, rgba(14, 15, 20, 0) 78.67%)" }}>
         <Partners />
         <div style={{ background: "rgba(27, 27, 27, 1)", marginBottom: "50px" }}>
